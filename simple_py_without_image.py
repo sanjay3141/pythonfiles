@@ -15,7 +15,7 @@ print(type(j))
 b=(10+3==13)
 print(b)
 k=int(input("Enter the first valve:"))
-if(k==9):
+if(k%2==0):
     print("k=",k, "is even")
 else:
     print ("its odd:")
